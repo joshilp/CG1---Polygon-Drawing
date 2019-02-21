@@ -14,7 +14,7 @@ public class DDALineRenderer implements LineRenderer {
 		
 		double slope = deltaY / deltaX;
 		
-//		double intercept = p2.getIntY() - slope * p2.getIntX();
+		//double intercept = p2.getIntY() - slope * p2.getIntX();
 		
 		int argbColor = p1.getColor().asARGB();
 		
@@ -31,6 +31,3 @@ public class DDALineRenderer implements LineRenderer {
 		return new AnyOctantLineRenderer(new DDALineRenderer());
 	}
 }
-
-
-

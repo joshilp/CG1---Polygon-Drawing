@@ -12,8 +12,8 @@ public class BresenhamLineRenderer implements LineRenderer {
 		double deltaX = p2.getIntX() - p1.getIntX();
 		double deltaY = p2.getIntY() - p1.getIntY();
 		
-//		double slope = deltaY / deltaX;
-//		double intercept = p2.getIntY() - slope * p2.getIntX();
+		//double slope = deltaY / deltaX;
+		//double intercept = p2.getIntY() - slope * p2.getIntX();
 		
 		double m = 2*deltaY;
 		double q = m - 2*deltaX;

@@ -36,7 +36,6 @@ public class AntialiasingLineRenderer implements LineRenderer {
 			y = y + m;
 		}
 	}
-
 	
 	public static LineRenderer make() {
 		return new AnyOctantLineRenderer(new AntialiasingLineRenderer());

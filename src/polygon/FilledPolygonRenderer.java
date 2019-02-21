@@ -126,5 +126,4 @@ public class FilledPolygonRenderer implements PolygonRenderer {
 		Vertex3D v3d_xright = new Vertex3D(xright, y, 0, color);
 		DDAdrawer.drawLine(v3d_xleft, v3d_xright, drawable);
 	}
-	
 }
